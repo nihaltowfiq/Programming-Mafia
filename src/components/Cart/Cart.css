@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0;
+  }
+.cart-container{
+    position: sticky;
+    top: 0;
+    text-align: left;
+    display: flex;
+    background-color: #52575f;
+    height: 51px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #ff00ac;
+}
+.menu{
+    line-height: 40px;
+    padding-left: 50px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover{
+    background-color: #151516;
+}
+.menu li:hover a{
+    color: #ff00ac;
+}
+.cart{
+    margin-left: 600px;
+}
